@@ -1,0 +1,57 @@
+/* Reset CSS */
+
+/* Box sizing border-box para todos los elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Corregir márgenes y rellenos para elementos de lista */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Corregir estilos de fuente y tamaños para encabezados y párrafos */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Corregir estilos de fuente y tamaños para otros elementos comunes */
+a, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    background: none;
+}
+
+/* Eliminar decoraciones de enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Corregir visualización en línea y bloque de elementos */
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+/* Limpiar la apariencia predeterminada de la lista */
+ul, ol {
+    list-style-type: none;
+}
+
+/* Corregir problemas de espaciado en IE */
+img {
+    vertical-align: middle;
+}
